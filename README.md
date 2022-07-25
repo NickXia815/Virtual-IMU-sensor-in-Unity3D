@@ -10,7 +10,13 @@ As the accessible 3D reconstructed human motions are increased, measuring the 3D
 Unity3D Platform with its Physics Engine.
 
 ## Realizing a virtual sensor design
-### IMU (Inertial Measurement Unit)
-The IMU sensor normally detects the kinematic data. With it attached to the human body, the IMU can sense the acceleration, angular velocity and 
+### 1. Import a 3D motion in Unity
+
+
+
+### 2. Virtual IMU (Inertial Measurement Unit) 
+The IMU sensor normally detects the kinematic data. With it attached to the human body, the IMU can sense the acceleration, angular velocity and magnetic. In Unity3D, a virtual IMU can be designed to output the accelertion and angular velocity. Furthermore, the euler angle and quaternion can be output. 
+
+
 
 ### Infrared distance sensor 
