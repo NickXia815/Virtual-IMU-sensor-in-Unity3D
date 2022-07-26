@@ -19,10 +19,14 @@ The IMU sensor normally detects the kinematic data. With it attached to the huma
 
 #### a. Create a cube model and put it as the child node under the desired body limb (as in the real world, wearing a sensor)
 <img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/attach_sensor_module.png" width="350" height="220" />
+
 #### b. Attach the script "virtual_IMU.cs" to the created cube model, setting the key parameters
 <img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/parametersetting.jpg" width="350" height="250" />
+
 #### c. Play the Animation and recording the data. After that, the data will be stored in the designated folder.
-<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/savedfile.jpg" width="350" height="250" />
+<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/savedfile.jpg" width="400" height="250" />
+
 #### d. Check the data (e.g., acceleration of walking from Right Upper Leg)
-<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/result.jpg" width="350" height="250" />
+<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/result.jpg" width="400" height="250" />
+
 ### Infrared distance sensor 
