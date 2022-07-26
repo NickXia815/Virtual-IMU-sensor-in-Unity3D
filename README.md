@@ -50,6 +50,7 @@ The IMU sensor normally detects the kinematic data. With it attached to the huma
 3. More possible application of distance sensor can be refer to following papers:
 
 【1】Xia, C., & Sugiura, Y. (2021, May). From Virtual to Real World: Applying Animation to Design the Activity Recognition System. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (pp. 1-6).
+
 【2】Xia, C., Saito, A., & Sugiura, Y. (2022). Using the virtual data-driven measurement to support the prototyping of hand gesture recognition interface with distance sensor. Sensors and Actuators A: Physical, 338, 113463.
 
-4. Author welcomes any collobration on virtual sensor design in Unity3D.
+4. Author welcomes any collobration on virtual sensor design in Unity3D. (contact: csxia@keio.jp)
