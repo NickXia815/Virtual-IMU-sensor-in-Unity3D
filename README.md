@@ -14,7 +14,7 @@ Unity3D Platform with its Physics Engine.
 <img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/avatar.png" width="300" height="280" />
 Create an Animation Controller (You can refer to the method of realize an animation in Unity)
 
-### 2. Virtual IMU (Inertial Measurement Unit) 
+### 2. Wearable Virtual IMU (Inertial Measurement Unit) 
 The IMU sensor normally detects the kinematic data. With it attached to the human body, the IMU can sense the acceleration, angular velocity and magnetic. In Unity3D, a virtual IMU can be designed to output the accelertion and angular velocity. Furthermore, the euler angle and quaternion can be output. 
 
 #### a. Create a cube model and put it as the child node under the desired body limb (as in the real world, wearing a sensor)
@@ -29,4 +29,17 @@ The IMU sensor normally detects the kinematic data. With it attached to the huma
 #### d. Check the data (e.g., acceleration of walking from Right Upper Leg)
 <img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/result.jpg" width="400" height="220" />
 
-### Infrared distance sensor 
+### 3. Wearable Infrared distance sensor 
+
+#### a. Create a cube model and put it as the child node under the desired body limb (as in the real world, wearing a sensor)
+
+#### b. Create ground model with rigid body
+<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/ground.png" width="350" height="220" />
+
+#### c. Attach the script "virtual_Distance.cs" to the created cube model, setting the key parameters
+
+#### d. Play the Animation and recording the data. After that, the data will be stored in the designated folder.
+<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/distance.jpg" width="400" height="250" />
+
+#### e. Check the data (e.g., distance between the Right Upper Leg and groud)
+<img src="https://github.com/NickXia815/Virtual-sensor-in-Unity3D/blob/Image/result_dis.jpg" width="400" height="220" />
