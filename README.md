@@ -48,6 +48,7 @@ The IMU sensor normally detects the kinematic data. With it attached to the huma
 1. The operation speed will be affect by different terminal device. Low-performance device will cause the overlapping-frame, so that ensure a relative low frame rate is neccessary.
 2. To get the distance, make the rigid body is important, otherwise the ray will not be breaken. 
 3. More possible application of distance sensor can be refer to following papers:
+
 【1】Xia, C., & Sugiura, Y. (2021, May). From Virtual to Real World: Applying Animation to Design the Activity Recognition System. In Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (pp. 1-6).
 【2】Xia, C., Saito, A., & Sugiura, Y. (2022). Using the virtual data-driven measurement to support the prototyping of hand gesture recognition interface with distance sensor. Sensors and Actuators A: Physical, 338, 113463.
 
